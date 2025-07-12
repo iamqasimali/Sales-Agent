@@ -1,0 +1,14 @@
+<div class="flex items-start gap-2.5 my-4">
+  <% if message.agent? %>
+    <%= image_tag "agent.png", class: "w-8 h-8 rounded-full", alt: "agent" %>
+  <% end %>
+  <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 rounded-e-xl rounded-es-xl <%= message.agent? ? 'border-green-200 bg-green-100 dark:bg-green-700' : 'border-gray-200 bg-gray-100 dark:bg-gray-700' %>">
+    <div class="flex items-center space-x-2 rtl:space-x-reverse">
+      <span class="text-sm font-semibold text-gray-900 dark:text-white"><%= message.agent? ? 'Assistant' : 'You' %></span>
+      <span class="text-sm font-normal text-gray-500 dark:text-gray-400"><%= message.created_at.strftime("%B %d, %Y %I:%M %p") %></span>
+    </div>
+    <div class="prose prose-p:text-sm max-w-none prose-li:text-sm" id="<%= dom_id(message, :stream) %>">
+      <%= render partial: "chats/message_body", locals: { message: message } %>
+    </div>
+  </div>
+</div>
