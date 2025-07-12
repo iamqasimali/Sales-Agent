@@ -1,4 +1,5 @@
 # SALES-AGENT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Empowering Smarter Sales Through Seamless Automation**  
 
@@ -7,7 +8,7 @@
 ![LLM](https://img.shields.io/badge/LLM-OpenAI-blue?style=for-the-badge&logo=openai&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 An intelligent sales automation platform powered by Ruby on Rails and Large Language Models (LLMs) to streamline lead management, customer interactions, and data-driven decision-making.
 
