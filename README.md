@@ -7,8 +7,10 @@
 ![LLM](https://img.shields.io/badge/LLM-OpenAI-blue?style=for-the-badge&logo=openai&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An intelligent sales automation platform powered by Ruby on Rails and Large Language Models (LLMs) to streamline lead management, customer interactions, and data-driven decision-making.
+
 
 ---
 
@@ -146,19 +148,7 @@ heroku container:push web -a your-app-name
 
 ## License
 MIT © [Qasim Ali](https://github.com/iamqasimali)
-```
 
-### Key Improvements:
-1. **Modern Badges** - Added shields.io badges for tech stack visibility.
-2. **Structured Sections** - Clear separation of features, setup, and usage.
-3. **LLM Focus** - Highlighted AI/LLM integration details.
-4. **Docker & Rails** - Combined container and Rails-specific instructions.
-5. **Env Configuration** - Added clear guidance for API keys.
-
-Would you like me to add any specific details about:
-- The LLM integration approach?
-- Example API workflows?
-- CRM integration specifics?
 
 # Deployment Instructions
 
