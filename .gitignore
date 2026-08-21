@@ -8,7 +8,6 @@
 /.bundle
 
 # Ignore all environment files.
-/.env*
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -37,3 +36,5 @@
 !/app/assets/builds/.keep
 TODO.md
 tags
+config.bat
+node_modules
