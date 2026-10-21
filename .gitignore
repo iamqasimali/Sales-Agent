@@ -36,5 +36,5 @@
 !/app/assets/builds/.keep
 TODO.md
 tags
-config.bat
 node_modules
+config.bat
