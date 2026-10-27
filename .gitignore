@@ -37,3 +37,4 @@
 TODO.md
 tags
 node_modules
+/.env*
