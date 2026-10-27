@@ -37,4 +37,4 @@
 TODO.md
 tags
 node_modules
-config.bat
+/.env*
